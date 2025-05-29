@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProductTitle It should render the component correctly with the custom title 1`] = `
+<DocumentFragment>
+  <span
+    class="productDescription custom-class"
+  >
+    Custom Product
+  </span>
+</DocumentFragment>
+`;
+
+exports[`ProductTitle should be show the component with the product name 1`] = `
+<DocumentFragment>
+  <div
+    class="productCard undefined"
+  >
+    <span
+      class="productDescription custom-class"
+    >
+      Product 1
+    </span>
+  </div>
+</DocumentFragment>
+`;
