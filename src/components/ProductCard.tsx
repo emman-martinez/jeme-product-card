@@ -44,9 +44,11 @@ const ProductCard = ({
     value,
   });
 
+  const classStyleName = `${styles.productCard} ${className}`;
+
   return (
     <Provider value={{ counter, maxCount, product, increaseBy }}>
-      <div className={`${styles.productCard} ${className}`} style={style}>
+      <div className={classStyleName} style={style}>
         {children &&
           children({
             count: counter,
